@@ -1,0 +1,108 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C37DD4CF-B83D-6104-F40B-7A4EAF97312A" name="의사">
+<createdBy>admin</createdBy>
+<createdTime>2020-05-08 02:26:36 UTC</createdTime>
+<ownerDesignName>병원 디자인</ownerDesignName>
+<ordsAlias>table_1</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="의사ID" id="03BAED58-F6BF-81E0-0797-D12E98CF1A31">
+<createdBy>admin</createdBy>
+<createdTime>2020-05-08 02:27:07 UTC</createdTime>
+<ownerDesignName>병원 디자인</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="담당진료과목" id="ADD63CEE-66C4-D57F-866C-3344C52818E1">
+<createdBy>admin</createdBy>
+<createdTime>2020-05-08 02:27:22 UTC</createdTime>
+<ownerDesignName>병원 디자인</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="성명" id="38FBC8DD-2B4C-6321-DD4E-13015BF6FF50">
+<createdBy>admin</createdBy>
+<createdTime>2020-05-08 02:27:36 UTC</createdTime>
+<ownerDesignName>병원 디자인</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="성별" id="DA22E7D8-F892-CEDE-647E-93F046020921">
+<createdBy>admin</createdBy>
+<createdTime>2020-05-08 02:27:48 UTC</createdTime>
+<ownerDesignName>병원 디자인</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="전화번호" id="00D4904A-C0C9-1A5C-CB4F-82426B47D82D">
+<createdBy>admin</createdBy>
+<createdTime>2020-05-08 02:28:08 UTC</createdTime>
+<ownerDesignName>병원 디자인</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="이메일" id="31D8F3A4-10E8-0C74-48B1-B7DAE0ACF3B4">
+<createdBy>admin</createdBy>
+<createdTime>2020-05-08 02:28:22 UTC</createdTime>
+<ownerDesignName>병원 디자인</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="직급" id="62B324AE-2CB0-A38E-53C7-365AA8D79DDE">
+<createdBy>admin</createdBy>
+<createdTime>2020-05-08 02:28:42 UTC</createdTime>
+<ownerDesignName>병원 디자인</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="9EFB5705-E40E-EA35-B3E1-ED9BA74A1530" name="의사_PK">
+<createdBy>admin</createdBy>
+<createdTime>2020-05-08 02:27:07 UTC</createdTime>
+<ownerDesignName>병원 디자인</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="03BAED58-F6BF-81E0-0797-D12E98CF1A31"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

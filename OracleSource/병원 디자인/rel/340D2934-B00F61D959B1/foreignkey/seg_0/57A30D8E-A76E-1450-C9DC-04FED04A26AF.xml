@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="57A30D8E-A76E-1450-C9DC-04FED04A26AF" containerWithKeyObject="715B4E45-E39F-A78C-7F34-F6C4892C447A" localFKIndex="1A44C6CD-FA76-9DB5-2493-9A7C3CA7D9E9" name="주문내역_주문도서_FK">
+<createdBy>admin</createdBy>
+<createdTime>2020-05-08 01:31:08 UTC</createdTime>
+<ownerDesignName>병원 디자인</ownerDesignName>
+<referredTableLongName>주문도서</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>5CC497B9-1070-F3B2-D17D-5AB33C258B72</referredTableID>
+<keyObject>90229A05-B551-8C92-5F2A-0C2F6B98ABA6</keyObject>
+<referredKeyID>90229A05-B551-8C92-5F2A-0C2F6B98ABA6</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>도서_SNO</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

@@ -1,0 +1,72 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C1008385-9DF5-6957-4E1D-99FA66B8AC3D" name="회원정보">
+<createdBy>admin</createdBy>
+<createdTime>2020-05-08 01:18:24 UTC</createdTime>
+<ownerDesignName>병원 디자인</ownerDesignName>
+<ordsAlias>table_1</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="회원번호" id="C846D516-2F79-8B1A-3322-D3E07527680D">
+<createdBy>admin</createdBy>
+<createdTime>2020-05-08 01:22:31 UTC</createdTime>
+<ownerDesignName>병원 디자인</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="회원이름" id="875DEA76-727E-D9D2-E961-CA325048C5FE">
+<createdBy>admin</createdBy>
+<createdTime>2020-05-08 01:20:36 UTC</createdTime>
+<ownerDesignName>병원 디자인</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="회원주소" id="2EC66E67-E62E-F764-3FAF-E2A35D0CE256">
+<createdBy>admin</createdBy>
+<createdTime>2020-05-08 01:21:10 UTC</createdTime>
+<ownerDesignName>병원 디자인</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="전화번호" id="B2FC926C-D7D6-EDE2-4EFA-EBD70EA383FF">
+<createdBy>admin</createdBy>
+<createdTime>2020-05-08 01:21:37 UTC</createdTime>
+<ownerDesignName>병원 디자인</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="EDCF396B-9B34-E629-0BC9-2E69B1E1C985" name="회원정보_PK">
+<createdBy>admin</createdBy>
+<createdTime>2020-05-08 01:22:34 UTC</createdTime>
+<ownerDesignName>병원 디자인</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C846D516-2F79-8B1A-3322-D3E07527680D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

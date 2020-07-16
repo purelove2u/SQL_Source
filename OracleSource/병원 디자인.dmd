@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="병원 디자인" id="E3B867CB-F60A-0ED3-EA68-D8FF4226E12D" version="3.5">
+<createdBy>admin</createdBy>
+<createdTime>2020-05-08 01:14:22 UTC</createdTime>
+<ownerDesignName>병원 디자인</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>E3B867CB-F60A-0ED3-EA68-D8FF4226E12D</designId>
+</OSDM_Design>

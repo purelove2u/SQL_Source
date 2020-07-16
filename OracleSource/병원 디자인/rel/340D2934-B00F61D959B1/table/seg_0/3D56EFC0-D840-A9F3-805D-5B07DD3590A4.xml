@@ -1,0 +1,62 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="3D56EFC0-D840-A9F3-805D-5B07DD3590A4" name="주문회원">
+<createdBy>admin</createdBy>
+<createdTime>2020-05-08 01:23:48 UTC</createdTime>
+<ownerDesignName>병원 디자인</ownerDesignName>
+<ordsAlias>table_3</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="회원번호" id="B2B7D3A2-8391-A5ED-313D-019BA933F633">
+<createdBy>admin</createdBy>
+<createdTime>2020-05-08 01:24:42 UTC</createdTime>
+<ownerDesignName>병원 디자인</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="417A0D9D-CD80-DF99-E725-CC864C7DA447" referredColumn="C846D516-2F79-8B1A-3322-D3E07527680D"/>
+</associations>
+</Column>
+<Column name="주문번호" id="4824484D-FD22-8DC6-4420-93C6E962D33E">
+<createdBy>admin</createdBy>
+<createdTime>2020-05-08 01:25:09 UTC</createdTime>
+<ownerDesignName>병원 디자인</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>20</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="632150D9-702B-CF09-381B-2721100343C1" referredColumn="19D949D3-D8F1-18F8-8903-A85F75C1AF7D"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="DD61B1CA-9FDB-40C6-E2A2-ADC7496C69B8" name="주문회원_주문내역_FK">
+<createdBy>admin</createdBy>
+<createdTime>2020-05-08 01:43:22 UTC</createdTime>
+<ownerDesignName>병원 디자인</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4824484D-FD22-8DC6-4420-93C6E962D33E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C9CEE54B-9D1F-5515-EB2A-D3F2839349B0" name="주문회원_회원정보_FK">
+<createdBy>admin</createdBy>
+<createdTime>2020-05-08 01:48:35 UTC</createdTime>
+<ownerDesignName>병원 디자인</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B2B7D3A2-8391-A5ED-313D-019BA933F633"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
