@@ -69,3 +69,4 @@ select * from notice order by id desc;
 update notice set id = 3 where title = 'servlet이란 무엇인가?';
 select value from v$parameter where name='service_names';
 select instance_name, version, status from v$instance;
+EXEC dbms_xdb.setlistenerlocalaccess(false);
