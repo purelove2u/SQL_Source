@@ -1,14 +1,3 @@
-create table member(
-    id          varchar2(50),
-    pwd         varchar2(50),
-    name        nvarchar2(50),
-    gender      nchar(2),
-    age         number(3),
-    birthday    char(10),
-    phone       char(13),
-    regdate     date
-);
-
 alter table member modify id nvarchar2(50);
 alter table member drop column age;
 alter table member add email varchar2(200);
@@ -69,3 +58,5 @@ select * from notice order by id desc;
 update notice set id = 3 where title = 'servlet이란 무엇인가?';
 select value from v$parameter where name='service_names';
 select instance_name, version, status from v$instance;
+
+commit;
