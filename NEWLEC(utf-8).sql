@@ -52,6 +52,10 @@ insert into notice values(5, '김이연은 누구인가?', '김이연', '오키�
 insert into notice values(6, '재미있는 금요일', '서명원', '집에가야지', sysdate, 30, '');
 insert into notice values(7, '스피링은 언제나가나', 'SON', '나 또 골 넣었다.', sysdate, 19, '');
 insert into notice values(8, '맥북매뉴얼', '스티브잡스', '직관적인데 무슨 매뉴얼 그냥 써', sysdate, 99, '');
+insert into notice values(9, '윈도우매뉴얼', '빌게이츠', '홈페이지 참조', sysdate, 109, '');
+insert into notice values(10, '아이폰북매뉴얼', '스티브잡스', '직관적인데 무슨 매뉴얼 그냥 써', sysdate, 55, '');
+insert into notice values(11, '갤럭시매뉴얼', '이재용', '홈페이지 참조', sysdate, 66, '');
+insert into notice values(12, '앵귤러', '개발자누구냐', '앵귤러가 무엇인고?', sysdate, 10, '');
 
 select * from notice order by regdate desc;
 
@@ -70,13 +74,13 @@ select * from (
     select rownum num, n.* 
     from (select * from notice order by regdate desc) n
 )
-where rownum between 1 and 5;
+where num between 11 and 20;
 
 select * from(
     select row_number() over (order  by regdate desc) num,
         notice.* from notice
 )
-where rownum between 1 and 5;
+where num between 1 and 5;
 
 --getNoticeCount
 
