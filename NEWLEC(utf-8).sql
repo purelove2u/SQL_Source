@@ -118,6 +118,7 @@ insert into notice values(71, '갤럭시매뉴얼', '이재용', '홈페이지 �
 insert into notice values(72, '앵귤러', '개발자누구냐', '앵귤러가 무엇인고?', sysdate, 10, '');
 
 select * from notice order by regdate desc;
+delete from newlec.notice where id = 148;
 
 update notice set id = 3 where title = 'servlet이란 무엇인가?';
 select value from v$parameter where name='service_names';
