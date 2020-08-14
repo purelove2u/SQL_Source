@@ -1,6 +1,7 @@
 alter table member modify id nvarchar2(50);
 alter table member drop column age;
 alter table member add email varchar2(200);
+select * from member;
 
 drop table member;
 select * from nls_database_parameters;
