@@ -28,3 +28,25 @@ select * from notice where hit > 3;
 
 select * from notice where content is null;
 
+select * from notice where hit in (0, 2, 7);
+select * from notice where hit not in (0, 2, 7);
+
+select * from member where name like '서%';
+select * from member where name like '서__';
+
+select * from notice where title like 'j%';
+select * from notice where title like 'j_________';
+
+select * from notice where title not like 'j%';
+
+select * from member where name like '%명%';
+select * from notice where title like '%db%';
+
+select * from notice where rownum between 1 and 5;
+select * from notice where rownum between 6 and 10;
+
+select rownum num, notice.* from notice;
+select * from(
+            select rownum num, notice.* from notice)
+where num between 6 and 10;
+
