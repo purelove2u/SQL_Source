@@ -1,6 +1,11 @@
 insert into member(id, pwd) values('myoungwon', '12345');
-insert into member(id, pwd) values('dragon', '12345');
-insert into member(id, pwd) values('test', '12345');
+insert into member(id, pwd, name, age) values('you', '12345', '유재석', 49);
+insert into member(id, pwd, name, age) values('kanghd', '12345', '강호동', 50);
+insert into member(id, pwd, name, age) values('kimym', '12345', '김용만', 51);
+insert into member(id, pwd, name, age) values('kimdh', '12345', '김두한', 80);
+insert into member(id, pwd, name, age) values('dragonball', '12345', '손오공', 100);
+insert into member(id, pwd, name, age) values('youks', '12345', '유관순', 17);
+
 
 select id "UserID", name, pwd from member;
 
@@ -8,7 +13,7 @@ update member set pwd='111' where id = 'myoungwon';
 update member set pwd = '333', name = '손오공' where id = 'dragon';
 update member set name = '서명원' where id = 'myoungwon';
 
-delete member where id = 'test';
+delete member where pwd = '12345';
 
 commit; 
 rollback;
@@ -50,3 +55,7 @@ select * from(
             select rownum num, notice.* from notice)
 where num between 6 and 10;
 
+update member set age = 37 where name = '서명원';
+update member set age = 99 where name = '손오공';
+
+select age from member;
