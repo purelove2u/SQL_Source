@@ -59,3 +59,20 @@ update member set age = 37 where name = '서명원';
 update member set age = 99 where name = '손오공';
 
 select age from member;
+
+select concat('홍', '길동') from dual;
+select '홍' || '길동' from dual;
+select '홍'+'길동' from dual;  -- 오류
+
+select replace('where we are', 'we', 'you') from dual;
+select translate('where we are', 'we', 'you') from dual;
+-- 회원이름과 주소를 조회. 주소는 빈칸 없이
+select name, replace(address,' ', '') from students;
+
+select trim('   경기도 광명시 하안동 333    ') from dual;
+
+select lpad('hello', 6) from dual;
+select lpad('hello', 6, 0) from dual;
+select lpad('hello', 10, '0') from dual;
+select rpad('hello', 10, '-') from dual;
+
